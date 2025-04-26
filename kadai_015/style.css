@@ -1,0 +1,39 @@
+/* フォントと基本設定 */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+  }
+  
+  /* ルート要素のフォントサイズ */
+  html {
+    font-size: 20px;
+  }
+  
+  /* カラー設定 */
+  .blue {
+    color: skyblue;
+  }
+  
+  .pink {
+    color: rgb(255, 192, 203);
+  }
+  
+  /* h1設定 */
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem; /* htmlのfont-sizeが20pxなので、2倍で40px */
+    letter-spacing: 1.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid rgb(115, 115, 114);
+  }
+  
+  /* basic内のp要素を太字に */
+  #basic p {
+    font-weight: bold;
+  }
+  
+  /* その他のp要素は太字にしない */
+  body > p {
+    font-weight: normal;
+  }
+  
